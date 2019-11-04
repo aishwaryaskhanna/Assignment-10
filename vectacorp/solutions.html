@@ -16,23 +16,15 @@
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.js"></script>
 	<script src="js/jquery.mobilemenu.js"></script>
-	<script src='scrolls.js'></script>
+	<script src='https://www.jqueryscript.net/demo/Scroll-To-Top-Plugin-jQuery-Scrolls/scrolls.js'></script>
 
 	<script>
 		$(document).ready(function(){
 			$('#responsive-menu').mobileMenu();
 			$("#sticker").sticky({topSpacing:0});
-			scroller.init();
-
 		});
 	</script>
-	<style>
-			config: {	
-		hoverColor: "#DB7661",
-		bgColor: "#1f2b31",
-		opacity: 1
-		}
-</style>
+	
 </head>
 <body>
 	<main class="container">
@@ -88,9 +80,10 @@
 				<li>Collect crucial information, data and statistics that allow a company to keep in touch with users in a very customized, highly targeted way.</li>
 				<li>Analyze site visitor behavior through traffic analysis, usability studies and interactive polling. Recommending and making site and application adjustments to improve usability and user experience.</li>
 			</ul>
-			<!-- <p><a href="#responsive-menu">Back to top</a></p>-->
 		</section>
-		
+		<script type="text/javascript">
+			scroller.init();
+		</script>
 		<section id="quickNav" class="five columns">
 			<div id="sticker">
 					<h4>Quick Nav</h4>
